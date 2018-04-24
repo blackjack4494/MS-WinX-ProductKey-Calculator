@@ -1,0 +1,14 @@
+Useful Links/Resources:
+https://www.licenturion.com/xp/fully-licensed-wpa.txt
+
+
+
+A Product Key has a length of 29, while it consists out of five fields seperated by a dash (-), 
+where each field consists out of five characters. So there are four dashes.
+Example Product Key:
+BBBBB-CCCCC-DDDDD-FFFFF-GGGGG
+
+The alphabet is fixed. Although there is no 'N' in the alphabet it will appear at some point in the Product Key.
+
+Since we know there are 25 characters and furthermore one will be an 'N' tho not it is not belonging to the alphabet,
+we will have a(n outer) counter of 24 (iterations).
