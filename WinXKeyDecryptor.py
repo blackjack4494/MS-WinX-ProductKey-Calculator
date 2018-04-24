@@ -21,7 +21,7 @@ for i in range(24,-1,-1):
     last = cur
 
 pto = out[1:last+1]
-result = pto + sp + out[6:25]
+result = pto + sp + out[last+1:]
 print("out: {}".format(out))
 print("pto: {}".format(pto))
 
