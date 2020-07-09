@@ -10,5 +10,13 @@ The example implementation will be in python. Feel free to add implementations i
 python WinXKeyDecryptor_productID.py
 ```
 
-This will return the currently activated Key.  
-However there may be 'older' keys in the registry in a different location.
+This will return the currently activated key.  
+However there may be 'older' keys in the registry in a different location.  
+
+
+
+###### To validate your key with official tools
+```
+slmgr /dli
+```
+This will return the last block (last 5 figures) of the used key.
